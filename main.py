@@ -55,7 +55,7 @@ def deduplicate(git_log, json_file):
         f.write(json.dumps(sorted(user_list, key = lambda x: x['id'])))
 
 if __name__ == "__main__":
-    import re, os, ast, sys, json
+    import re, os, sys, json
     print(sys.argv)
     if len(sys.argv) != 3:
         raise ValueError('You need to give a Git Log history, and a full JSON file path respectively.')
