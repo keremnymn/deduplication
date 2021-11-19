@@ -1,0 +1,53 @@
+commit da54f7986cbc50bb2b22e499725186f1f60907c6
+Author: Dummy User <dummy@dummy.com>
+Date:   Fri Nov 19 20:46:32 2021 +0300
+
+    gitignore
+
+commit fbddadb7acd904d0dcac899f72126fa907eb3a5f
+Author: Kerem Nayman <keremnymn@gmail.com>
+Date:   Fri Nov 19 20:35:03 2021 +0300
+
+    initial commit
+
+commit fbddadb7acd904d0dcac899f72126fa907eb3a5a
+Author: KeremNymn <keremnymn@gmail.com>
+Date:   Fri Nov 19 20:35:03 2021 +0300
+
+    fake commit
+
+commit fbddadb7acd904d0dcac899f72126fa907eb3a5c
+Author: KN <keremnymn@gmail.com>
+Date:   Fri Nov 19 20:35:03 2021 +0300
+
+    fake commit2
+
+commit fbddadb7acd904d0dcaa899f72126fa907eb3a5c
+Author: Kerem Nayman <keremnayman@gmail.com>
+Date:   Fri Nov 19 20:35:03 2021 +0300
+
+    fake commit3
+
+commit fbddadb7acd904d0dcaa829f72126fa907eb3a5c
+Author: Dummy User <dummy@dummy.com>
+Date:   Fri Nov 19 20:35:03 2021 +0300
+
+    fake commit4
+
+commit fbddadb7bcd904d0dcaa829f72126fa907eb3a5c
+Author: Dummy <dummy@dummy.com>
+Date:   Fri Nov 19 20:35:03 2021 +0300
+
+    fake commit5
+
+commit fbddadb7bcd904d0dcaa829f72126fa907ec3a5c
+Author: KeremNymn <kerem@somecompany.com>
+Date:   Fri Nov 19 20:35:03 2021 +0300
+
+    fake commit6
+
+commit fbddadb7bcd904d0dcaa829f72126fb907ec3a5c
+Author: Dummy <dummy@somecompany.com>
+Date:   Fri Nov 19 20:35:03 2021 +0300
+
+    fake commit7
