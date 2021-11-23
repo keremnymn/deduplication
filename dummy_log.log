@@ -51,3 +51,15 @@ Author: Dummy <dummy@somecompany.com>
 Date:   Fri Nov 19 20:35:03 2021 +0300
 
     fake commit7
+
+commit fbddadb7bcd904d0dcaa829f72126fb907ec3a5c
+Author: Stefan <stefan@somecompany.com>
+Date:   Fri Nov 19 20:35:03 2021 +0300
+
+    fake commit8
+
+commit fbddadb7bcd904d0dcaa829f72126fb907ec3a5c
+Author: Stefan 2 <stefan@somecompany.com>
+Date:   Fri Nov 19 20:35:03 2021 +0300
+
+    fake commit7
