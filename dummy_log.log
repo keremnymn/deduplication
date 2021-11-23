@@ -28,6 +28,18 @@ Date:   Fri Nov 19 20:35:03 2021 +0300
 
     fake commit3
 
+commit fbddadb7acd904d0dcaa899f72126fa907eb3a5c
+Author: Kerem Nayman <keremnayman2@gmail.com>
+Date:   Fri Nov 19 20:35:03 2021 +0300
+
+    fake commit3
+
+commit fbddadb7acd904d0dcaa899f72126fa907eb3a5c
+Author: Kerem Nayman <keremnayman3@gmail.com>
+Date:   Fri Nov 19 20:35:03 2021 +0300
+
+    fake commit3
+
 commit fbddadb7acd904d0dcaa829f72126fa907eb3a5c
 Author: Dummy User <dummy@dummy.com>
 Date:   Fri Nov 19 20:35:03 2021 +0300
@@ -78,6 +90,24 @@ Date:   Fri Nov 19 20:35:03 2021 +0300
 
 commit fbddadb7bcd904d0dcaa829f72126fb907ec3a5c
 Author: Another Guy <anotherguy@anothercompany.com>
+Date:   Fri Nov 19 20:35:03 2021 +0300
+
+    fake commit7
+
+commit fbddadb7bcd904d0dcaa829f72126fb907ec3a5c
+Author: Different Guy <differentguy@differentcompany.com>
+Date:   Fri Nov 19 20:35:03 2021 +0300
+
+    fake commit7
+
+commit fbddadb7bcd904d0dcaa829f72126fb907ec3a5c
+Author: Different Guy <differentguy2@differentcompany.com>
+Date:   Fri Nov 19 20:35:03 2021 +0300
+
+    fake commit7
+
+commit fbddadb7bcd904d0dcaa829f72126fb907ec3a5c
+Author: Different Guy <differentguy@differentcompany2.com>
 Date:   Fri Nov 19 20:35:03 2021 +0300
 
     fake commit7
