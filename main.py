@@ -6,17 +6,12 @@ def deduplicate(git_log, json_file):
     # if given json_file is not a file, create a default one. if it exists, open and load it to python.
     if not os.path.isfile(json_file):
         json_file = os.path.join(os.path.dirname(__file__), 'deduplicated.json')
-        with open(json_file, 'w') as f:
-            pass
+        with open(json_file, 'w') as f: pass;
         user_list = []
-        max_id = 0
     else:
         with open(json_file, 'r') as f:
             user_list = json.loads(f.read())
             user_list = sorted(user_list, key = lambda x: x['id'])
-            # we'll use max_id to decide from what number of ids we'll continue for new entries
-            max_id = max(user_list, key=lambda x: x['id'])
-            max_id = max_id['id']
 
     # I prefer using regex to parse git log
     users = re.findall("Author: ([\\s\\S]+?)\n", git_log)
@@ -29,8 +24,9 @@ def deduplicate(git_log, json_file):
         _unique = True
         if user_list != []: # if json_file is a real file and it's not empty
             for existing_user in user_list: # check the existing users
+                aliases = [x.split('@')[0] for x in existing_user['author_emails']]
                 # worst if statement ever
-                if email == existing_user['primary_email'] or (username in existing_user['author_names'] or email in existing_user['author_emails']):
+                if email == existing_user['primary_email'] or (email.split('@')[0] in aliases or username in existing_user['author_names'] or email in existing_user['author_emails']):
                     _unique = False
 
                     ## THIS CAN BE A FUNCTION TO MAKE IT MORE READABLE ##
@@ -65,7 +61,6 @@ def deduplicate(git_log, json_file):
                 'author_names': author_names
             }
             user_list.append(new_user)
-        max_id += 1
     with open(json_file, 'w') as f:
         f.write(json.dumps(sorted(user_list, key = lambda x: x['id'])))
 
