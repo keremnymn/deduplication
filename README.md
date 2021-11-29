@@ -1,3 +1,7 @@
+# What is this?
+
+This Python script deduplicates entries in your `git log` output.
+
 # How to use?
 
 - First, write your `git log` to a `.log` file.
@@ -11,4 +15,4 @@ If you already have a `.json` of your own, provide your file as a second command
 
 or else the program will create a default `deduplicated.json` file in the same directory.
 
-###### Developed by Kerem Nayman as a coding challenge. Hope it works!
+###### Developed by Kerem Nayman as a coding challenge.
